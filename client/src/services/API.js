@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Set base URL from environment variable or fallback to localhost
 const API = axios.create({
-  baseURL: process.env.REACT_APP_BASEURL?.trim() || "http://localhost:8080/api/v1",
+  baseURL: process.env.REACT_APP_BASEURL?.trim() || "https://blood-gqz7.onrender.com/api/v1",
 });
 
 // Attach token to every request if available
